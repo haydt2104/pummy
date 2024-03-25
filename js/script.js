@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function () {
           console.log("remove cursor");
           cursor.style.display = "none";
         }
-      }, 2000);
+      }, 1000);
       console.log(index);
     } else if (index >= text.length) {
       console.log("index >= length");
