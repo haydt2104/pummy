@@ -13,10 +13,10 @@
   position: relative;
   text-align: center;
   color: white;
+  width: 100vw;
 }
-
-h1 {
-  width: 100%;
+#typed-text {
+  white-space: nowrap; /* Ngăn chữ trong thẻ H1 tự động xuống dòng */
 }
 
 .image-container img {
@@ -57,7 +57,7 @@ h1 {
   animation: blink 0.7s infinite;
   position: absolute; /* Đặt vị trí tuyệt đối để nó xuất hiện ngay sau chữ */
   top: 0; /* Đặt vị trí ở đầu của phần tử chữ */
-  right: -0.1em; /* Di chuyển con trỏ sang phải của chữ */
+  right: -0.1em;
 }
 
 @keyframes glow {
